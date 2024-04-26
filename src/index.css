@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Font1;
+  src: url(/public/font/614d5b3ca76dce34d6644466_RecklessNeue-Book.ttf);
+}
+
+@font-face {
+  font-family: Font2;
+  src: url(/public/font/61cbfe7e00483903bc280b7b_ABCFavorit-Book-Trial.ttf);
+}
+
+@font-face {
+  font-family: Font3;
+  src: url(/public/font/64b346e8d4e691cd90a6a173_ABCFavoritExpanded-Bold-Trial.ttf);
+}
+
+::selection{
+  color: white;
+  background-color: black;
+}
